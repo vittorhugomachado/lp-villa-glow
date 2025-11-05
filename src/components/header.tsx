@@ -43,11 +43,46 @@ export const Header = () => {
                 <button className="absolute top-5 right-4" onClick={() => setOpenMenu(false)}>
                     <IoMdClose className="text-white text-3xl " />
                 </button>
-                <a className="px-5 pt-1 pb-1.5 rounded-full text-lg font-semibold text-[#030332] bg-[#C3973B] text-bartex">Ingressos</a>
+                <a
+                    target="_blank"
+                    href="https://www.sympla.com.br/evento/villa-glow-pintando-no-escuro/3187225?_gl=1*1k6tqsb*_gcl_au*OTkwMzcyMzkzLjE3NjEyNTU3NDMuMTQwNzU4MzAwNS4xNzYxMzI4NTE0LjE3NjEzMjg2MDk.*_ga*MTQ5MTg4MDgyOC4xNzYxMjU1NzQ0*_ga_KXH10SQTZF*czE3NjEzMjcwMDMkbzUkZzEkdDE3NjEzMjg5ODMkajI2JGwwJGgxNDY0MTM3ODMz"
+                    className="px-5 pt-1 pb-1.5 rounded-full text-lg font-semibold text-[#030332] bg-[#C3973B] text-bartex"
+                >
+                    Ingressos
+                </a>
                 <ul className="flex flex-col gap-4 items-start font-semibold text-white pl-2 pt-6">
-                    <li onClick={() => handleScroll("first-fold")} className="cursor-pointer">Experiência</li>
-                    <li onClick={() => handleScroll("second-fold")} className="cursor-pointer">Informações</li>
-                    <li onClick={() => handleScroll("third-fold")} className="cursor-pointer">Localização</li>
+                    <li
+                        onClick={
+                            () => {
+                                handleScroll("first-fold")
+                                setOpenMenu(false);
+                            }
+                        }
+                        className="cursor-pointer"
+                    >
+                        Experiência
+                    </li>
+                    <li onClick={
+                        () => {
+                            handleScroll("second-fold", +500)
+                            setOpenMenu(false);
+                        }
+                    }
+                        className="cursor-pointer"
+                    >
+                        Informações
+                    </li>
+                    <li
+                        onClick={
+                            () => {
+                                handleScroll("third-fold")
+                                setOpenMenu(false);
+                            }
+                        }
+                        className="cursor-pointer"
+                    >
+                        Localização
+                    </li>
                 </ul>
             </nav>
         </header>
