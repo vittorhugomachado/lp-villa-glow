@@ -56,8 +56,8 @@ function App() {
                     <p className="text-2xl mb-6 mt-2">Venha viver a arte, o brilho e a magia do Natal no Shopping Villa Lobos. </p>
                     <h4 className="text-[18px] md:text-[21px] font-bold">- Segunda a quinta-feira R$ 49,90</h4>
                     <h4 className="text-[18px] md:text-[21px] font-bold">- Sexta, sábado e domingo R$ 65,00</h4>
-                    <h4 className="text-[18px] md:text-[21px] font-bold">- Sujeita à lotação</h4>
-                    <h4 className="text-[18px] md:text-[21px] font-bold">- Para todas as idades</h4>
+                    <h4 className="text-[16px] md:text-[16px] font-bold">- Sujeita à lotação</h4>
+                    <h4 className="text-[16px] md:text-[16px] font-bold">- Para todas as idades</h4>
                     <img src="/images/respingo-azul.png" alt="" className="hidden md:block absolute right-0 -top-40" />
                     <a
                         target="_blank"
