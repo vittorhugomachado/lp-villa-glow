@@ -44,7 +44,7 @@ function App() {
                     <img src="/images/favicon-g.png" alt="Logo Allos" className="w-25 h-auto object-contain" />
                 </div>
             </section>
-            <section id="second-fold" className="w-screen overflow-hidden h-300 bg-[#C3973B] md:h-250 py-12 md:py-0 relative flex flex-col lg:flex-row justify-center lg:justify-start items-center"> 
+            <section id="second-fold" className="w-screen overflow-hidden h-300 bg-[#C3973B] md:h-270 py-12 md:py-0 relative flex flex-col lg:flex-row justify-center lg:justify-start items-center"> 
                 <VideoComponent
                     src="/videos/video-mulher-desenhando.mp4"
                     poster="/images/poster-mulher-desenhando.png"
