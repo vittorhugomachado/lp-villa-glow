@@ -12,7 +12,12 @@ function App() {
         <VideoComponent
           src="/videos/video-hero.mp4"
           poster="/images/poster-hero.png"
-          className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+          className="md:hidden absolute top-0 left-0 w-full h-full -z-10"
+        />
+        <VideoComponent
+          src="/videos/video-hero-desktop.mp4"
+          poster="/images/poster-hero-desktop.png"
+          className="hidden md:block absolute top-0 left-0 w-full h-full -z-10"
         />
         <div className="flex flex-col items-center px-8 lg:scale-130 z-10">
           {/* <img src="/images/logo-villa-lobos.png" alt="logo-villa-lobos" className="w-30" />
