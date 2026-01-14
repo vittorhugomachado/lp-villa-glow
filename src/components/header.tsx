@@ -22,7 +22,7 @@ export const Header = () => {
             <div className="flex items-center gap-2">
                 <a
                     target="_blank"
-                    href="https://www.sympla.com.br/evento/villa-glow-pintando-no-escuro/3187225?_gl=1*1k6tqsb*_gcl_au*OTkwMzcyMzkzLjE3NjEyNTU3NDMuMTQwNzU4MzAwNS4xNzYxMzI4NTE0LjE3NjEzMjg2MDk.*_ga*MTQ5MTg4MDgyOC4xNzYxMjU1NzQ0*_ga_KXH10SQTZF*czE3NjEzMjcwMDMkbzUkZzEkdDE3NjEzMjg5ODMkajI2JGwwJGgxNDY0MTM3ODMz"
+                    href="https://www.sympla.com.br/evento/villa-glow-pintando-no-escuro/3261080?referrer=www.villaglow.com.br&referrer=www.villaglow.com.br"
                     className="px-5 pt-1 pb-1.5 rounded-full text-lg font-semibold text-[#030332] bg-[#C3973B] text-bartex"
                 >
                     Ingressos
