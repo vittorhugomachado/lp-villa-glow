@@ -4,7 +4,7 @@ Página oficial: https://www.villaglow.com.br/
 
 ## Sobre o Projeto
 
-O **Vila Glow** é uma experiência interativa de natal, criada para o **Shopping VillaLobos** em parceria com a agência Limão ou Limonada.  
+O **Vila Glow** é uma experiência interativa de pintura neon, criada para o **Shopping VillaLobos** em parceria com a agência Limão ou Limonada.  
 Este repositório contém a **Landing Page** demonstrando a **experiência ** do evento — desenvolvido com **Vite**, **React** e **TypeScript** para performance e escalabilidade.
 
 ---
