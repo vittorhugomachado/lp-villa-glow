@@ -45,7 +45,7 @@ export const Header = () => {
                 </button>
                 <a
                     target="_blank"
-                    href="direcionar os ingressos para esse link: https://www.sympla.com.br/evento/villa-glow-pintando-no-escuro/3296189"
+                    href="https://www.sympla.com.br/evento/villa-glow-pintando-no-escuro/3296189"
                     className="px-5 pt-1 pb-1.5 rounded-full text-lg font-semibold text-[#030332] bg-[#C3973B] text-bartex"
                 >
                     Ingressos
