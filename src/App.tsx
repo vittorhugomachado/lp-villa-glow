@@ -77,7 +77,7 @@ function App() {
         />
         <div className="w-full h-full flex flex-col gap-3 max-w-136 px-4 lg:pt-36 lg:ml-18 pt-10 text-center md:text-start md:px-8 z-50">
           {/* <h4 className="text-3xl font-bold">20 de novembro</h4> */}
-          <h4 className="text-3xl font-bold">até 1 de fevereiro</h4>
+          {/* <h4 className="text-3xl font-bold">até 1 de fevereiro</h4> */}
           <p className="text-2xl mb-6 mt-2">
             Venha viver a arte, o brilho e a magia no Shopping Villa Lobos.{" "}
           </p>
