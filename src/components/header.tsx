@@ -22,7 +22,7 @@ export const Header = () => {
             <div className="flex items-center gap-2">
                 <a
                     target="_blank"
-                    href="https://www.sympla.com.br/evento/villa-glow-pintando-no-escuro/3261080?referrer=www.villaglow.com.br&referrer=www.villaglow.com.br"
+                    href="https://www.sympla.com.br/evento/villa-glow-pintando-no-escuro/3296189"
                     className="px-5 pt-1 pb-1.5 rounded-full text-lg font-semibold text-[#030332] bg-[#C3973B] text-bartex"
                 >
                     Ingressos
@@ -45,7 +45,7 @@ export const Header = () => {
                 </button>
                 <a
                     target="_blank"
-                    href="https://www.sympla.com.br/evento/villa-glow-pintando-no-escuro/3261080"
+                    href="direcionar os ingressos para esse link: https://www.sympla.com.br/evento/villa-glow-pintando-no-escuro/3296189"
                     className="px-5 pt-1 pb-1.5 rounded-full text-lg font-semibold text-[#030332] bg-[#C3973B] text-bartex"
                 >
                     Ingressos
