@@ -9,7 +9,7 @@ function App() {
         id="hero-fold"
         className="w-screen shadow-2xl min-h-screen relative flex items-center justify-center"
       >
-        <VideoComponent
+        {/* <VideoComponent
           src="/videos/video-hero.mp4"
           poster="/images/poster-hero.png"
           className="md:hidden absolute top-0 left-0 w-full h-full -z-10"
@@ -18,7 +18,24 @@ function App() {
           src="/videos/video-hero-desktop.mp4"
           poster="/images/poster-hero-desktop.png"
           className="hidden md:block absolute top-0 left-0 w-full h-full -z-10"
+        /> */}
+        <img
+          src="/videos/image-hero.jpg"
+          alt="image-hero"
+          className="md:hidden absolute top-10 left-0 w-full h-full -z-10 object-cover object-top"
         />
+        <img
+          src="/videos/image-hero-desktop.jpg"
+          alt="image-hero"
+          className="hidden md:block absolute top-0 left-0 w-full h-full -z-10 object-cover object-left"
+        />
+        <a
+          target="_blank"
+          href="https://www.sympla.com.br/evento/villa-glow-pintando-no-escuro/3296189"
+          className="hidden md:block px-8 py-1.5 left-52 top-159 absolute rounded-full text-lg font-semibold mt-0 mb-3 text-[#020321] bg-[#C3973B] text-center"
+        >
+          Saiba mais
+        </a>
         <div className="flex flex-col items-center px-8 lg:scale-130 z-10">
           {/* <img src="/images/logo-villa-lobos.png" alt="logo-villa-lobos" className="w-30" />
                     <h1 className="text-7xl whitespace-nowrap text-[#C3973B]">Villa Glow</h1>
